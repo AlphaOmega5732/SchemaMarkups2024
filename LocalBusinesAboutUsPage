@@ -1,0 +1,85 @@
+<script type="application/ld+json">
+// ADD TO SCRIPT FOR JETPACK WP PLUGIN
+//   data-jetpack-boost="ignore"
+{
+  "@context": "https://schema.org",
+	"@graph":[
+		{	
+		"@type":"AboutPage",
+			"@id":"ABOUTPAGEURL",
+			"isPartOf":{
+				"@id":"HOMEPAGEURL"
+			},
+			"author":{
+				"@type":"Person",
+				"name":"AUTHORNAME",
+				"@id":"AUTHORNAME",
+				"url": "AUTHORURL"
+			},
+			"headline":"PAGEHEADLINE",
+			"alternativeHeadline": "ALTERNATIVEPAGEHEADLINE,
+			"datePublished":"2024-03-20T23:49:10+00:00",
+			"dateModified":"2024-03-20T23:49:10+00:00",
+			"mainEntityOfPage":{"@id":"ABOUTPAGEURL"},
+			
+			// STATIC
+			"publisher":{"@id":"HOMEPAGEURL"},
+			"inLanguage":"en-US", 
+			"isFamilyFriendly": "true",
+  			"keywords": "ABOUTPAGEKEYWORDS",
+			
+			// UPDATE
+			"image":{
+				"@id":"ABOUTPAGEIMAGE"
+			},
+			"thumbnailUrl": {
+				"@type": "ImageObject",
+				"contentUrl": "https://example.com/image.jpg", // 1200x1200
+				"thumbnail": [
+				  {
+					"@type": "ImageObject",
+					"contentUrl": "https://example.com/image-small.jpg",
+					"width": "500",
+					"height": "500"
+				  },
+				  {
+					"@type": "ImageObject",
+					"contentUrl": "https://example.com/image-medium.jpg",
+					"width": "800",
+					"height": "600"
+				  },
+				  {
+					"@type": "ImageObject",
+					"contentUrl": "https://example.com/image-large.jpg",
+					"width": "1920",
+					"height": "1080"
+				  }
+								    ]
+  },
+			
+			"name":"ABOUTPAGETITLE",
+			"description":"ABOUTPAGEDESCRIPTION"
+		},
+		
+	  {
+      	"@type": "BreadcrumbList",
+		"name" : "BreadcrumbList",
+		"@id":"https://cashfuel.net/",
+      		"itemListElement": [
+			{
+			  "@type": "ListItem",
+			  "position": 1,
+			  "name": "HOMEPAGETITLE",
+			  "item": "HOMEPAGEURL"
+			},
+			{
+			  "@type": "ListItem",
+			  "position": 2,
+			  "name": "ABOUTPAGETITLE",
+			  "item": "2NDBREADCRUMB-ABOUTPAGEURL"
+			}
+		  ]
+    	}
+	]
+}
+</script>
