@@ -1,4 +1,6 @@
 <script type="application/ld+json">
+// ADD TO ABOVE SCRIPT IF USING JETPACK WP PLUGIN
+// data-jetpack-boost="ignore"
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
@@ -89,20 +91,18 @@
     "dayOfWeek": "Saturday",
     "opens": "10:00",
     "closes": "14:00"
-  }],
-  
+  }],  
   "department": {
 	"@type": "Support",
 		"name": "SUPPORTAGENTNAME",
 		"telephone": "+1-555-555-5555" 
-  },
-	
-	  "paymentAccepted": ["Cash", "Credit Card"],
-      "priceRange": "$$",
-      "sameAs": [
-        "https://www.facebook.com/"        
+  },	
+	"paymentAccepted": ["Cash", "Credit Card"],
+      	"priceRange": "$$",
+      	"sameAs": [
+        "https://www.facebook.com/YOUR-FB-URL"        
       ],
-      "inLanguage": "en-US, es-ES, es-MX",
+      "inLanguage": "en-US, es-ES, es-MX", // US - ENGLISH, SPAIN - SPANISH, MEXICO - SPANISH
       "about": "SCHEMAABOUTCATEGORY"
 }
 </script>
