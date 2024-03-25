@@ -20,7 +20,7 @@
     "@type" : "ContactPoint",
     "telephone" : "+1-555-555-5555",
     "contactType" : "New Customer"
-  }]
+  }],
   "isFamilyFriendly": "true",
   "keywords": "YOURKEYWORDS",  
   "logo": "YOURLOGO",
