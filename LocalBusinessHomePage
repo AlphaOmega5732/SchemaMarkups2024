@@ -103,6 +103,9 @@
         "https://www.facebook.com/YOUR-FB-URL"        
       ],
       "inLanguage": "en-US, es-ES, es-MX", // US - ENGLISH, SPAIN - SPANISH, MEXICO - SPANISH
-      "about": "SCHEMAABOUTCATEGORY"
+  
+"about": {
+    "name": "SCHEMAABOUTCATEGORY"
+  }
 }
 </script>
