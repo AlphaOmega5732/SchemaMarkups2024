@@ -105,7 +105,11 @@
       "inLanguage": "en-US, es-ES, es-MX", // US - ENGLISH, SPAIN - SPANISH, MEXICO - SPANISH
   
 "about": {
-    "name": "SCHEMAABOUTCATEGORY"
+   "@type": "COMPANYABOUTTYPE",
+    "name": "SCHEMAABOUTCATEGORY",
+    "address": "COMPANYADDRESS",
+    "telephone": "+1-575-555-5555",
+    "priceRange": "$$"
   }
 }
 </script>
